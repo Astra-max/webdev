@@ -1,0 +1,178 @@
+responsive {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px) {
+  .header {
+    justify-content: center;
+    background-color: pink;
+    flex-direction: column;
+    position: absolute;
+    top: 5.5rem;
+    right: 0;
+  }
+  .first-four {
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+h1 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+  background-color: rgb(161, 91, 228);
+}
+
+.hd {
+  display: flex;
+  padding-left: 0.5rem;
+}
+
+.hd > ul {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  padding-left: 25.5rem;
+  margin-top: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  font-weight: 900;
+  padding-left: 4.5rem;
+}
+
+.sample {
+  background-color: rgb(161, 91, 228);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 23.3rem;
+  width: 15.3rem;
+  border-radius: 0.5rem;
+  border-top: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  padding-top: 0.5rem;
+  padding-left: 0.9rem;
+}
+.display {
+  background-color: rgb(233, 213, 213);
+}
+.first-four {
+  margin-top: 3.3rem;
+  display: flex;
+  width: 84.3rem;
+  border-radius: 0.5rem;
+  padding-left: 0.1rem;
+}
+.last-four {
+  display: flex;
+  width: 84.3rem;
+  padding-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0.1rem;
+}
+.items
+{
+  height: 15.5rem;
+  text-align: center;
+  color: white;
+  border-radius: 1.5rem 1.5rem 0.1rem 0.1rem;
+}
+.about
+{
+  background-color: rgb(208, 25, 245);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 9.0rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-top: 0.0rem;
+  color:white;
+}
+button {
+  height: 1.9rem;
+  width: 4.5rem;
+  color: purple;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+button:hover {
+  background-color: rgb(239, 244, 245);
+  color: cyan;
+  font-size: 0.9rem;
+  font-weight: 30.5rem;
+}
+
+.center-btn {
+  display: flex;
+  padding-left: 1.5rem;
+}
+
+.save-item {
+  padding-left: 1.5rem;
+}
+.purchase {
+  display: flex;
+  padding-left: 0.8rem;
+}
+img {
+  height: 15.5rem;
+  width: 15.3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-position: 0%;
+}
+.west-mart {
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  display: flex;
+}
+.west-mart ul {
+  list-style: none;
+  display: block;
+}
+.endpage {
+  background-color: black;
+  display: flex;
+  color: white;
+  margin-bottom: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.endpage ul {
+  list-style: none;
+  display: flex;
+  padding-left: 25.5rem;
+  text-align: center;
+  justify-content: center;
+}
+.endpage ul li {
+  padding-left: 1.5rem;
+}
+.endpage ul li a {
+  color: white;
+  font-weight: 500;
+}
